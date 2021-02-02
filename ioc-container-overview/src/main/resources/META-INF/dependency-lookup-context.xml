@@ -9,4 +9,12 @@
         <property name="name" value="JackPan"></property>
     </bean>
 
+    <bean id="objectFactory" class="org.springframework.beans.factory.config.ObjectFactoryCreatingFactoryBean">
+        <property name="targetBeanName" value="user"/>
+    </bean>
+
+    <bean id="superUser" class="com.jackpan.thinking.in.spring.io.overview.domain.SuperUser" parent="user" primary="true">
+        <property name="address" value="福州"/>
+    </bean>
+
 </beans>
