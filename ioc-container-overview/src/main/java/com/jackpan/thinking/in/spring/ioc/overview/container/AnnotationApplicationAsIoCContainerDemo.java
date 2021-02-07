@@ -1,11 +1,8 @@
-package com.jackpan.thinking.in.spring.io.overview.container;
+package com.jackpan.thinking.in.spring.ioc.overview.container;
 
-import com.jackpan.thinking.in.spring.io.overview.domain.User;
+import com.jackpan.thinking.in.spring.ioc.overview.domain.User;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.ListableBeanFactory;
-import org.springframework.beans.factory.support.DefaultListableBeanFactory;
-import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
-import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Bean;
 
@@ -24,6 +21,8 @@ public class AnnotationApplicationAsIoCContainerDemo {
         applicationContext.register(AnnotationApplicationAsIoCContainerDemo.class);
         applicationContext.refresh();
         lookupCollectionByType(applicationContext);
+
+        applicationContext.close();
     }
 
     @Bean

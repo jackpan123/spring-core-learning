@@ -1,6 +1,6 @@
-package com.jackpan.thinking.in.spring.io.overview.repository;
+package com.jackpan.thinking.in.spring.ioc.overview.repository;
 
-import com.jackpan.thinking.in.spring.io.overview.domain.User;
+import com.jackpan.thinking.in.spring.ioc.overview.domain.User;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.ObjectFactory;
 import org.springframework.context.ApplicationContext;

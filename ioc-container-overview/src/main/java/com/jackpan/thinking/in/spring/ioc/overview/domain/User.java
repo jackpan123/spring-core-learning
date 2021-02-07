@@ -1,4 +1,4 @@
-package com.jackpan.thinking.in.spring.io.overview.domain;
+package com.jackpan.thinking.in.spring.ioc.overview.domain;
 
 /**
  * @author jackpan

@@ -1,6 +1,6 @@
-package com.jackpan.thinking.in.spring.io.overview.domain;
+package com.jackpan.thinking.in.spring.ioc.overview.domain;
 
-import com.jackpan.thinking.in.spring.io.overview.annotation.Super;
+import com.jackpan.thinking.in.spring.ioc.overview.annotation.Super;
 
 /**
  * @author jackpan

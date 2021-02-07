@@ -1,4 +1,4 @@
-package com.jackpan.thinking.in.spring.io.overview.annotation;
+package com.jackpan.thinking.in.spring.ioc.overview.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

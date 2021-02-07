@@ -1,6 +1,6 @@
-package com.jackpan.thinking.in.spring.io.overview.dependency.injection;
+package com.jackpan.thinking.in.spring.ioc.overview.dependency.injection;
 
-import com.jackpan.thinking.in.spring.io.overview.repository.UserRepository;
+import com.jackpan.thinking.in.spring.ioc.overview.repository.UserRepository;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.ObjectFactory;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
